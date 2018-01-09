@@ -1,0 +1,72 @@
+body{
+	background-color: lightblue;
+
+}
+#block {
+    width: 360px;
+    height:600px;
+    background-color: orange;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+#play {
+
+    width: 180px;
+    height: 110px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 215px auto;
+    text-align: center;
+    font-size:38px;
+    line-height: 95px;
+
+}
+#play a{
+    text-decoration: none;
+    color:black;
+}
+canvas {
+	float: left;
+	position: relative;
+	left:30%;
+	border-radius: 10px;
+}
+#score {
+	background-image:url(img/graw.jpg);
+	
+}
+#button {
+	width: 180px;
+	height: 120px;
+	position: absolute;
+	left: 37%;
+	top: 235px;
+	display: none;
+
+}
+#button:hover{
+	position:absolute;
+	left: 37%;
+	top: 237px;
+	width: 175px;
+	height:115px;
+
+}
+#home {
+	width: 126px;
+	height: 74px;
+	position: absolute;
+	left: 39%;
+	top: 355px;
+	display: none;
+
+}
+#home:hover{
+	position:absolute;
+	left: 39%;
+	top: 358px;
+	width: 126px;
+	height: 74px;
+
+}
